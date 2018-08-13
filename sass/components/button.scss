@@ -1,0 +1,15 @@
+// button
+
+.btn {
+    border: none;
+    background: $primary;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: $white;
+    transition: .5s;
+}
+
+.btn:hover {
+    background: lighten($primary, 8);
+}

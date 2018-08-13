@@ -1,0 +1,16 @@
+// Layout of the container
+
+.container {
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+@media (max-width: 600px) {
+    
+    .container {
+        max-width: 1200px;    
+        padding: .5rem;
+    }
+    
+}
+    

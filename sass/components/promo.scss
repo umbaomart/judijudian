@@ -1,0 +1,88 @@
+// promo section
+.promo-section {
+    height: 500px;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.95), rgba(40, 180, 133, 0.95)), url(../img/judibg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 3rem;
+    // background-attachment: fixed;
+    
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .promo-content {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+        .promo-messages, 
+        .promo-messages {
+            // background: pink;
+            
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .promo-message {
+            // margin: .5rem;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .promo-margin {
+            margin-right: .5rem;
+        }
+        
+        .margin-all {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        #hero-message1,
+        #hero-message2 {
+            // margin: 1rem;
+            font-size: 45px;
+            font-weight: 700;
+            color: $white;
+            text-shadow: $box-shadow;    
+        }
+        
+        // #hero-message {
+        //     // background: pink;
+        //     font-size: 50px;
+        //     font-weight: 700;
+        //     color: $white;
+        //     text-shadow: $box-shadow;
+        // }
+        // 
+        // @media (max-width: 600px) {
+        // 
+        //     span {
+        //         margin: .5rem;
+        //         font-size: 25px;
+        //     }
+        // 
+        //     #hero-message {
+        //         font-size: 35px;
+        //     }
+        // }
+    }
+    
+    .promo-2 {
+        margin-top: 2rem;
+    }
+}
+
+
